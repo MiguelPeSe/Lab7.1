@@ -8,6 +8,7 @@ on:
       - 'frontend/**'
       - 'backend/**'
       - 'infra/**'
+    workflow_dispatch:
       # Al NO listar 'docs/**', cualquier cambio en documentacion se ignora automaticamente
 
 jobs:
